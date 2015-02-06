@@ -27,3 +27,13 @@
 *.i*86
 *.x86_64
 *.hex
+
+# kaneton sdk
+*.pyc
+.dependency.mk
+.current
+kaneton/kaneton
+*.map
+environment/env.mk
+environment/env.py
+kaneton/core/version.c
