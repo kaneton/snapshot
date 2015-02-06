@@ -1,0 +1,146 @@
+#
+# ---------- information ------------------------------------------------------
+#
+# this set of operation removes all the unecessary components such as the
+# cheat/, test/, history/ etc. directories.
+#
+# note that the root Makefile is also replaced in order to consier the
+# new environment.
+#
+
+#
+# directories
+#
+-
+  operation: fremove
+  path: TODO
+
+-
+  operation: fremove
+  path: README
+
+-
+  operation: fremove
+  path: cheat
+
+-
+  operation: fremove
+  path: check
+
+-
+  operation: fremove
+  path: configure
+
+-
+  operation: fremove
+  path: history
+
+-
+  operation: fremove
+  path: transcript
+
+-
+  operation: fremove
+  path: view
+
+-
+  operation: freplace
+  src: export/data/snapshot/Makefile
+  dst: Makefile
+
+#
+# test
+#
+
+-
+  operation: fremove
+  path: test/configuration
+
+-
+  operation: fremove
+  path: test/engine
+
+-
+  operation: fremove
+  path: test/environments
+
+-
+  operation: fremove
+  path: test/hooks
+
+-
+  operation: fremove
+  path: test/images
+
+-
+  operation: fremove
+  path: test/robot
+
+-
+  operation: fremove
+  path: test/scripts
+
+-
+  operation: fremove
+  path: test/server
+
+-
+  operation: fremove
+  path: test/stages
+
+-
+  operation: fremove
+  path: test/store
+
+-
+  operation: fremove
+  path: test/suites
+
+-
+  operation: fremove
+  path: test/tests
+
+-
+  operation: fremove
+  path: test/utilities
+
+-
+  operation: freplace
+  src: export/data/snapshot/test/Makefile
+  dst: test/Makefile
+
+#
+# tools
+#
+-
+  operation: fremove
+  path: tool/ctc
+
+-
+  operation: fremove
+  path: tool/firmware
+
+-
+  operation: fremove
+  path: tool/forest
+
+-
+  operation: fremove
+  path: tool/interface
+
+-
+  operation: fremove
+  path: tool/mbl/octaneload
+
+-
+  operation: fremove
+  path: tool/mbl/qemu-mips
+
+-
+  operation: fremove
+  path: tool/script
+
+-
+  operation: freplace
+  src: export/data/snapshot/tool/Makefile
+  dst: tool/Makefile

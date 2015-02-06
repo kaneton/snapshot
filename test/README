@@ -1,0 +1,15 @@
+#
+# ---------- header -----------------------------------------------------------
+#
+# project       kaneton
+#
+# license       kaneton
+#
+# file          /home/mycure/kaneton.STABLE/test/README
+#
+# created       julien quintard   [tue nov  2 07:38:27 2010]
+# updated       julien quintard   [tue nov  2 07:39:23 2010]
+#
+
+This directory contains the whole test system which is composed of a server,
+a client, some scripts as well as test suites composed of several tests.

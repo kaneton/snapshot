@@ -1,0 +1,62 @@
+#
+# ---------- information ------------------------------------------------------
+#
+# this set of operations removes parts of the source code in order for
+# students to undertake the k2 project.
+#
+
+#
+# glue
+#
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/glue/ibm-pc.ia32/educational/as.c
+  dst: kaneton/machine/glue/ibm-pc.ia32/educational/as.c
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/glue/ibm-pc.ia32/educational/include/as.h
+  dst: kaneton/machine/glue/ibm-pc.ia32/educational/include/as.h
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/glue/ibm-pc.ia32/educational/region.c
+  dst: kaneton/machine/glue/ibm-pc.ia32/educational/region.c
+
+#
+# architecture
+#
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/environment.c
+  dst: kaneton/machine/architecture/ia32/educational/environment.c
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/pd.c
+  dst: kaneton/machine/architecture/ia32/educational/pd.c
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/include/pd.h
+  dst: kaneton/machine/architecture/ia32/educational/include/pd.h
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/pt.c
+  dst: kaneton/machine/architecture/ia32/educational/pt.c
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/include/pt.h
+  dst: kaneton/machine/architecture/ia32/educational/include/pt.h
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/paging.c
+  dst: kaneton/machine/architecture/ia32/educational/paging.c
+
+-
+  operation: freplace
+  src: export/data/snapshot/kaneton/machine/architecture/ia32/educational/include/paging.h
+  dst: kaneton/machine/architecture/ia32/educational/include/paging.h
